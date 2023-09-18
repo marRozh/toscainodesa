@@ -2596,14 +2596,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   background-position: bottom;
 }
 .sm-img-bg-fullscr {
-  background-position: bottom;
-  background-size:cover;
-  
+  background-position: center;
   width: 100%;
   display: block;	
   position: relative;
   background-size: cover;
-     
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow: hidden;
@@ -5920,6 +5917,13 @@ button {
 }
 .button.gray:hover {
 	background-color:#101010;
+}
+.button.blue {
+	color:#fff;
+	background-color: #1988FF;
+}
+.button.blue:hover {
+	background-color: #1175e0;
 }
 .button.gray-light {
 	color: #333333;

@@ -4,6 +4,19 @@
 $(document).ready(function(){
   'use strict';
  
+
+  //make book now button sticky
+  $(window).on('scroll', function() {
+          if($(this).scrollTop() > 500) {
+              $('.book-now-btn').addClass('hide');
+              $('#fixed-bottom-btn').removeClass('hide');
+          }  else {
+            $('.book-now-btn').removeClass('hide');
+            $('#fixed-bottom-btn').addClass('hide');
+          };
+
+  });
+
   /* --------------------------------------------
     SEARCH
   --------------------------------------------- */
@@ -32,6 +45,7 @@ $(document).ready(function(){
 			($('.cd-search').hasClass('is-visible')) ? $('.cd-overlay').addClass('is-visible') : $('.cd-overlay').removeClass('is-visible') ;
 		}
 	}
+
 
 
   /* --------------------------------------------

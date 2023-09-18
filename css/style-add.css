@@ -160,12 +160,21 @@
     line-height: 2.8rem;
 }
 
+#main-date-heading {
+    font-size: 4rem;
+    line-height: 2.8rem;
+}
+
+#main-button-heading {
+    margin-top: 2rem;
+}
+
 #about-section .fes7-box {
     padding-left: 0!important;
 }
 
 #sponsorship {
-    background-color: #1988FF;
+    background-color: rgb(25, 136, 255);
 }
 
 #sponsorship h2, #sponsorship p, #sponsorship h4, #sponsorship span, #sponsorship li { 
@@ -179,6 +188,23 @@
 #about-title {
     text-align: start!important;
 }
+
+#fixed-bottom-btn {
+    position: fixed;
+    bottom: 5%;
+    top: auto;
+    left: 5%;
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    -webkit-box-shadow: 5px 5px 9px 2px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 5px 5px 9px 2px rgb(0 0 0 / 20%);
+    box-shadow: 5px 5px 9px 2px rgb(0 0 0 / 20%);
+    z-index: 100;
+  }
+
+  .hide {
+    display: none;
+  }
 
 /* countdown */
 
