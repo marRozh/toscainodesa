@@ -138,7 +138,8 @@
     font-family: 'DM Serif Display', serif;
     text-shadow: 2px 2px 7px #333333;
     font-size: 120px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #section-title {
@@ -153,20 +154,30 @@
 
 #main-under-heading {
     font-size: 2rem;
+    padding: 10px 0;
 }
 
 #main-over-heading {
     font-size: 2.8rem;
     line-height: 2.8rem;
+    padding: 10px 0;
 }
 
 #main-date-heading {
     font-size: 4rem;
     line-height: 2.8rem;
+    padding: 10px 0;
 }
 
 #main-button-heading {
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main-button-heading .button {
+    margin: 0 20px;
 }
 
 .about-section .fes7-box {
@@ -282,7 +293,22 @@
     padding: 0;
   }
 
+  #main-over-heading {
+    font-size: 1.5rem;
+  }
 
+  #main-heading {
+
+  }
+
+  #main-under-heading {
+    font-size: 1.5rem;
+    padding: 10px 0;
+  }
+
+  #main-date-heading {
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -294,6 +320,20 @@
 @media (max-width: 599px){
     #main-heading {
         font-size: 60px;
+    }
+}
+
+@media (max-width: 420px){
+    #main-over-heading {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: #333333!important;
+    }
+    #main-heading {
+        font-size: 4.5rem;
+    }
+    #main-under-heading {
+        font-size: 1.2rem;
     }
 }
 
